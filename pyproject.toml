@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jmbf"
+version = "0.1.0"
+description = "Jones monthly budgeting form."
+authors = ["Nathaniel Jones <nathaniel.j.jones@wsu.edu>"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Home Automation"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
